@@ -16,22 +16,27 @@ A Flutter application built using **Cubit (flutter_bloc)** for state management 
 ---
 ## Installation
 1. Clone the repository
-   git clone ## https link
-   cd book_club_app
-2. Install dependencies
-   flutter pub get
-4. Verify Asset Configuration:
-## Ensure your local book cover images are inside assets/images/ and declared in your pubspec.yaml:
-
-YAML
+     - `git clone [## https link]`
+     - `cd book_club_app`
+   
+3. Install dependencies
+     - `flutter pub get`
+   
+5. Verify Asset Configuration:
+** Ensure your local book cover images are inside assets/images/ and declared in your pubspec.yaml**
+```yaml
 flutter:
   uses-material-design: true
+
   assets:
     - assets/images/
+```
+    
 4. Launch your Pixel emulator
-  flutter emulators --launch Pixel_10a
-5. Run the application
-  flutter run
+   - `flutter emulators --launch Pixel_10a`
+
+6. Run the application
+   - `flutter run`
 
 ---
 
